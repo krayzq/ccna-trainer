@@ -9,3 +9,7 @@ Settings → Pages → Source: **Deploy from a branch** → Branch: **main**, fo
 The permanent address then becomes `https://krayzq.github.io/ccna-trainer/`.
 
 Changes to `index.html` published to `main` deploy automatically. Start Exam generates a fresh random order on each attempt.
+
+## Troubleshooting
+
+If the published URL returns 404 immediately after enabling GitHub Pages, check the repository Actions tab for the Pages build and deployment job. GitHub Pages may take a few minutes to publish the first site.
